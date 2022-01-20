@@ -37,10 +37,10 @@ def main():
     clockin_url = 'https://fangkong.hnu.edu.cn/api/v1/clockinlog/add'
     headers = login()
     clockin_data = {"Temperature": "null",
-                    "RealProvince": "湖南省",
-                    "RealCity": "长沙市",
-                    "RealCounty": "岳麓区",
-                    "RealAddress": "宿舍",
+                    "RealProvince": "湖北省",
+                    "RealCity": "鄂州市市",
+                    "RealCounty": "鄂城区",
+                    "RealAddress": "泽林镇福盛花园",
                     "IsUnusual": "0",
                     "UnusualInfo": "",
                     "IsTouch": "0",
